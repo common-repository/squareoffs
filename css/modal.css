@@ -1,0 +1,78 @@
+.squareoffs-insert:before {
+	content: ' ';
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	margin-right: 4px;
+	vertical-align: text-top;
+	opacity: 0.8;
+}
+
+.squareoffs-modal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.squareoffs-modal .media-modal-content {
+	position: relative;
+	width: 600px;
+	height: auto;
+	min-height: auto;
+	max-height: 96vh;
+	overflow: auto;
+}
+
+.squareoffs-modal .media-frame-title,
+.squareoffs-modal .media-frame-toolbar,
+.squareoffs-modal .media-frame-content,
+.squareoffs-modal .media-toolbar {
+	left: 0;
+	height: auto;
+	position: static;
+}
+
+.squareoffs-modal .media-toolbar {
+	padding-bottom: 15px;
+}
+
+.squareoffs-modal .media-frame-content {
+	top: 50px;
+	padding: 0 20px;
+}
+
+.squareoffs-modal .media-modal-content .media-toolbar {
+	margin: 0 -20px;
+	padding: 15px 20px;
+	background: #fcfcfc;
+	border-top-width: 1px;
+}
+
+.squareoffs-modal .media-modal-content .media-toolbar-primary .button {
+	margin: 0 0 0 8px;
+}
+
+.squareoffs-loading {
+	float: left;
+	margin-left: -30px;
+}
+
+.squareoffs-loading:not( .is-active ) {
+	display: none;
+}
+
+.squareoffs-modal .squareoffs-form-row-label {
+	margin-top: 5px;
+}
+
+.squareoffs-modal-insert-content-default .button {
+	margin: 20px 10px 20px 0;
+}
+
+.media-frame-content .notice {
+	margin: 20px 0;
+}
+
+.ui-timepicker-container {
+	z-index: 160001 !important;
+}

@@ -1,0 +1,255 @@
+.squareoffs-form-row {
+	padding: 10px 0;
+	font-size: 14px;
+}
+
+.squareoffs-form-row-label {
+	margin-bottom: 10px;
+	display: block;
+	font-size: 1.07692307692em;
+	font-weight: 600;
+}
+
+.squareoffs-form-row-main {
+	width: auto;
+}
+
+.squareoffs-form-row .squareoffs-input-medium,
+.squareoffs-form-row .regular-text {
+	display: block;
+	max-width: 100%;
+	width: 25em;
+	box-sizing: border-box;
+}
+
+.squareoffs-form-row .squareoffs-input-medium {
+	width: 12em;
+}
+
+.squareoffs-form-row .squareoffs-date-input,
+.squareoffs-form-row .squareoffs-time-input {
+	width: 8em;
+	margin-right: 0.5em;
+	display: inline-block;
+}
+
+.squareoffs-form-row .squareoffs-date-input-alt {
+	background: white;
+}
+
+.squareoffs-date .dashicons {
+	margin-top: 0.2em;
+	margin-right: 3px;
+}
+
+.squareoffs-form-row input.readonly {
+	overflow: visible;
+	border: 0;
+	box-shadow: none;
+	background-color: transparent;
+	width: 25em;
+}
+
+.squareoffs-form-section {
+	margin: 20px 0;
+}
+
+.squareoffs-form-section legend {
+	color: #23282d;
+	font-size: 1.4em;
+	font-weight: 600;
+	margin: 1em 0;
+	padding-left: 0;
+}
+
+.squareoffs-form-checkbox {
+	margin-bottom: 10px;
+}
+
+.squareoffs-color-picker {
+	display: inline-block;
+	padding-top: 4px !important;
+}
+
+.squareoffs-form-image-preview,
+.squareoffs-form-image-actions {
+	float: left;
+	margin-right: 20px;
+}
+
+.squareoffs-form-image-preview {
+	// border-radius: 100%;
+	overflow: hidden;
+}
+
+.squareoffs-form-image-preview img {
+	display: block;
+	width: 100%;
+	height: auto;
+	/*max-width: 72px;
+	max-height: 72px;*/
+}
+
+.squareoffs-form-image-actions .button {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.squareoffs-modal .squareoffs-form-image-actions .button {
+    margin-top: 10px;
+}
+
+@media ( min-width: 440px ) {
+
+	.squareoffs-form-row {
+		display: flex;
+	}
+
+	.squareoffs-form-row-label {
+		width: 220px;
+		padding-right: 20px;
+		box-sizing: border-box;
+		margin: 0;
+	}
+
+	.squareoffs-form-row-main {
+		width: calc( 100% - 230px );
+	}
+
+}
+
+/* View styles */
+.squareoffs-image-view img {
+	max-height: 150px;
+	max-width: 100%;
+}
+
+.squareoffs-view-table {
+	border: 1px solid #e5e5e5;
+	border-bottom: none;
+	background: #FFF;
+	vertical-align: top;
+	table-layout: fixed;
+	border-collapse: collapse;
+	width: 100%;
+	margin: 20px 0;
+}
+.squareoffs-view-table th {
+	font-size: 1.3em;
+}
+
+.squareoffs-view-table th,
+.squareoffs-view-table td {
+	padding: 10px;
+	vertical-align: top;
+	text-align: left;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.squareoffs-view-table thead tr,
+.squareoffs-view-table tr:nth-child(odd) {
+	background: #f9f9f9;
+}
+
+.squareoffs-view-table tbody th {
+	max-width: 100px;
+}
+
+.squareoffs-view-table-title {
+	margin: 0 0 5px;
+}
+
+.squareoffs-graph-label {
+	display: inline-block;
+	width: 50px;
+	text-align: right;
+}
+
+.squareoffs-graph-container {
+	display: block;
+	width: 100%;
+	height: 150px;
+	position: relative;
+	margin: 5px 0;
+}
+
+.squareoffs-graph-label {
+	display: block;
+	margin: 5px 0;
+	text-align: center;
+	width: 100%;
+}
+
+.squareoffs-graph {
+	display: block;
+	background: #f15c52;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.squareoffs-graph-alt {
+	background: #06b096;
+}
+
+.ui-timepicker {
+	text-align: left;
+}
+
+.squareoffs-cols{
+	width:100%;
+	display: inline-flex;
+}
+.squareoffs-cols > div{
+	text-align: center;
+	flex-grow: 1;
+}
+
+.squareoffs-cols > div label{
+	display: block;
+}
+
+.regular-form-label{
+	font-weight: normal;
+	font-style: italic;
+	font-size: 12px;
+}
+
+.dataTables_wrapper .dataTables_length select{
+    width: 50px;
+    line-height: 1;
+}
+.dataTables_wrapper .dataTables_filter input{
+	line-height: 1;
+    margin-bottom: 10px;
+}
+
+.soSpacing div {
+    display: block;
+    overflow: hidden;
+    width: 150px;
+}
+.soSpacing input{
+    width: 50px;
+    height: 35px;
+    text-align: center;
+}
+
+.soSpacing input[name='marginTop']{
+    margin: 0 auto;
+    display: block;
+}
+.soSpacing input[name='marginRight']{
+    float: right;
+    display: block;
+}
+.soSpacing input[name='marginBottom']{
+    margin: 0 auto;
+    display: block;
+}
+
+.soSpacing input[name='marginLeft']{
+    float: left;
+    display: block;
+}
